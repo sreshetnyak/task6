@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5ABB8AA1896C568009793F9 /* TTObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ABB8A91896C568009793F9 /* TTObjectTest.m */; };
 		A5C75A7D18954A8C002994C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C75A7C18954A8C002994C9 /* Foundation.framework */; };
 		A5C75A7F18954A8C002994C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C75A7E18954A8C002994C9 /* CoreGraphics.framework */; };
 		A5C75A8118954A8C002994C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C75A8018954A8C002994C9 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5ABB8A81896C568009793F9 /* TTObjectTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTObjectTest.h; sourceTree = "<group>"; };
+		A5ABB8A91896C568009793F9 /* TTObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTObjectTest.m; sourceTree = "<group>"; };
 		A5C75A7918954A8C002994C9 /* DataType.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataType.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C75A7C18954A8C002994C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A5C75A7E18954A8C002994C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				A5C75AB618954B1D002994C9 /* TTViewController.h */,
 				A5C75AB718954B1D002994C9 /* TTViewController.m */,
 				A5C75AB818954B1D002994C9 /* TTViewController.xib */,
+				A5ABB8A81896C568009793F9 /* TTObjectTest.h */,
+				A5ABB8A91896C568009793F9 /* TTObjectTest.m */,
 				A5C75A9418954A8C002994C9 /* Images.xcassets */,
 				A5C75A8318954A8C002994C9 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5ABB8AA1896C568009793F9 /* TTObjectTest.m in Sources */,
 				A5C75A8D18954A8C002994C9 /* TTAppDelegate.m in Sources */,
 				A5C75A8918954A8C002994C9 /* main.m in Sources */,
 				A5C75AB918954B1D002994C9 /* TTViewController.m in Sources */,
@@ -453,6 +459,7 @@
 				A5C75AAD18954A8D002994C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5C75AAE18954A8D002994C9 /* Build configuration list for PBXNativeTarget "DataTypeTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +468,7 @@
 				A5C75AB018954A8D002994C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

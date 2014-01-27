@@ -7,6 +7,7 @@
 //
 
 #import "TTViewController.h"
+#import "TTObjectTest.h"
 
 @interface TTViewController ()
 
@@ -18,6 +19,25 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    TTObjectTest *obj = [[TTObjectTest alloc]init];
+    NSMutableArray *arrayWithPoint = [[NSMutableArray alloc]init];
+    
+    CGPoint point = CGPointZero;
+    CGRect rect = CGRectMake(2, 2, 3, 3);
+    
+    for (int i = 0; i < 100; i++) {
+        point = CGPointMake(arc4random()%11, arc4random()%11);
+        
+        if ([obj findPoint:point inRectangle:rect] == PointStateYes) {
+            NSLog(@"YES");
+            NSValue *val = [NSValue valueWithCGPoint:point];
+            [arrayWithPoint addObject:val];
+        } else {
+            NSLog(@"NO");
+        }
+    }
+    
+    NSLog(@"%@",arrayWithPoint);
 }
 
 - (void)didReceiveMemoryWarning
