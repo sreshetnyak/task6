@@ -38,6 +38,9 @@
     }
     
     NSLog(@"%@",arrayWithPoint);
+    
+    [obj release];
+    [arrayWithPoint release];
 }
 
 - (void)didReceiveMemoryWarning
