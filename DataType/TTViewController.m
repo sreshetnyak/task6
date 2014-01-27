@@ -30,8 +30,8 @@
         
         if ([obj findPoint:point inRectangle:rect] == PointStateYes) {
             NSLog(@"YES");
-            NSValue *val = [NSValue valueWithCGPoint:point];
-            [arrayWithPoint addObject:val];
+            
+            [arrayWithPoint addObject:[NSValue valueWithCGPoint:point]];
         } else {
             NSLog(@"NO");
         }

@@ -12,7 +12,7 @@
 typedef enum {
     PointStateYes,
     PointStateNo
-}PointState;
+} PointState;
 
 @interface TTObjectTest : NSObject
 
