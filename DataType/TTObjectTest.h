@@ -10,14 +10,14 @@
 
 
 typedef enum {
-    PointStateYes,
-    PointStateNo
-} PointState;
+    TTPointStateYes,
+    TTPointStateNo
+} TTPointState;
 
 @interface TTObjectTest : NSObject
 
-@property (nonatomic,assign) PointState state;
+@property (nonatomic,assign) TTPointState state;
 
-- (PointState)findPoint:(CGPoint)point inRectangle:(CGRect)rect;
+- (TTPointState)findPoint:(CGPoint)point inRectangle:(CGRect)rect;
 
 @end

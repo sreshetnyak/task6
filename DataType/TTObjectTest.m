@@ -11,12 +11,12 @@
 @implementation TTObjectTest
 
 
-- (PointState)findPoint:(CGPoint)point inRectangle:(CGRect)rect {
+- (TTPointState)findPoint:(CGPoint)point inRectangle:(CGRect)rect {
     
     if (CGRectContainsPoint(rect, point)) {
-        return PointStateYes;
+        return TTPointStateYes;
     } else {
-        return PointStateNo;
+        return TTPointStateNo;
     }
 }
 
